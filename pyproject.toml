@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "storyweaver"
+version = "0.1.0"
+description = "This is a simple streamlit app for building childrens story board"
+authors = ["Krishnatejaswi S <shentharkrishnatejaswi@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.41.1"
+mirascope = "^1.13.0"
+groq = "^0.13.1"
+pypollinations = "^0.2.0"
+asyncio = "^3.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
